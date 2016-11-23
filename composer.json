@@ -1,19 +1,21 @@
 {
     "name": "lichv/wxpay",
-    "description": "wechat pay sdk for PHP",
-    "type": "library",
+    "description": "wechat pay sdk for PHP Laravel",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "psr-4": {"WxPay\\": "src/"}
+        }
+    },
+
     "license": "MIT",
+    "minimum-stability" : "dev",
     "authors": [
         {
             "name": "lichv lee",
             "email": "lichvg@gmail.com"
         }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.5.9"
-    },
-    "autoload": {
-        "psr-4": {"WxPay\\": "src/"}
-    }
+    ]
 }
