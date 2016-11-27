@@ -31,6 +31,8 @@ class JsApiPay
 	 * @var array
 	 */
 	public $data = null;
+
+	public $curl_timeout = 60;
 	
 	/**
 	 * 
